@@ -5,8 +5,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DotNetOfficialExistingDatabase.Data;
 
+//Access modifier class keyword ClassName : InheritedClassName
 public partial class BulkyContext : DbContext
 {
+    //Access modifier
     public BulkyContext()
     {
     }
