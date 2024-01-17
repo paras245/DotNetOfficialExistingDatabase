@@ -13,11 +13,13 @@ public partial class BulkyContext : DbContext
     {
     }
 
+    //Access modifier DbContext class 
     public BulkyContext(DbContextOptions<BulkyContext> options)
         : base(options)
     {
     }
 
+    //Access modifier
     public virtual DbSet<Customer> Customers { get; set; }
 
     public virtual DbSet<EmployeesAngular> EmployeesAngulars { get; set; }
